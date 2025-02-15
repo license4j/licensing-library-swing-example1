@@ -7,23 +7,9 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>17</maven.compiler.release>
-        <exec.mainClass>com.example.swing.example1.MainSwing</exec.mainClass>
+        <maven.compiler.release>9</maven.compiler.release>
+        <exec.mainClass>com.example.swing.example1.MainJFrame1</exec.mainClass>
     </properties>
-    
-    <!--<repositories>
-        <repository>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>fail</checksumPolicy>
-            </releases>
-            <id>licensing-library</id>
-            <name>License4J Runtime Library Maven Repository</name>
-            <url>http://maven.license4j.net</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>-->
     
     <dependencies>
         <dependency>
@@ -32,10 +18,10 @@
             <version>5.0.1</version>
         </dependency>
         
-         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>2.0.16</version>
+        <dependency>
+              <groupId>com.formdev</groupId>
+            <artifactId>flatlaf</artifactId>
+            <version>3.5.4</version>
         </dependency>
     </dependencies>
     
