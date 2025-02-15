@@ -10,5 +10,6 @@ Both displays a simple JDialog if license is invalid. Help menu includes a Licen
 
 ![Swing Licensing Example 1](https://www.license4j.com/_images/swing1.png "example screenshot 1")
 
+
 ![Swing Licensing Example 2](https://www.license4j.com/_images/swing2.png "example screenshot 2")
 
